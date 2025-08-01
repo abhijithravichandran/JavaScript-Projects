@@ -19,6 +19,8 @@ function addtask(){
     saveData();
 }
 
+// Using addeventlistener to get the element clicked 
+
 listContainer.addEventListener("click",function(e){  if(e.target.tagName === "LI"){
         e.target.classList.toggle("checked");
         saveData();
